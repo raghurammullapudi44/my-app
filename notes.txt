@@ -53,3 +53,7 @@ jsx javascript xml
 tsx typescript xml
 
 
+Props 
+Lists
+Conditional rendering
+
