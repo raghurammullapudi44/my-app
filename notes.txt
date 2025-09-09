@@ -1,0 +1,55 @@
+React app from scratch
+
+node will come with npm
+
+build tool such as vite
+
+we can use npm i vite to install vite or else directly use vite@latest it will download automatlly gets included for our application as default build tool
+
+In below command my-app is the application folder name 
+
+npm create vite@latest my-app -- --template react-ts
+
+cd my-app
+
+npm install
+
+npm run dev
+
+this npm run dev will start the server at 5173 port no
+
+React offer a component based architecture and used to create UI single page applications.
+
+React got popular is because of the concept of virtaul DOM. virtaul DOM makes applications faster.
+
+Virtual DOM is copy of actual DOM with less properties so as its lighter and less data comparision makes UI updates. faster and why Virtual DOM makes the app changes faster
+
+when ever an user action happens that triggers the change cycle i.e comparision of data and then reflect the updates in UI.
+
+From reaxt in memory its not DM it is lighter represenattion of DOM. si changes are detected faster and UI is updated faster.
+
+In react developer writes code to change detection as per event. In Angular change detection happens with every event and in react we have to initiate it bby including in our code.
+
+React reaches out to api and api gives info/data to react library and it has to show this user so it can modifuy any of those data and posted abck to api
+
+In react every thing we see is a component
+
+we see a view generally so a function which returns a view is called component
+
+funtion x(){
+    return (
+        <h1>sample component</h1>
+    )
+}
+
+1. create a component
+2. export it
+3. import it where we want to use it
+4. import {component} from filepath
+
+
+
+jsx javascript xml
+tsx typescript xml
+
+
