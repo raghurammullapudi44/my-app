@@ -92,3 +92,14 @@ in login component match some hard coded cred and if matched call that function 
 
 in home component in that function print an alert "Login Success"
 
+if we wanted to do something after the component is rendered then we have to use useEffect
+
+useEffect(())=>{
+
+},[])
+
+hooks should start with use as starting name useFunctionName
+hooks can be used only in a component not in nested
+
+user defined hook must contain another hook
+
