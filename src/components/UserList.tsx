@@ -12,12 +12,21 @@ function UserList() {
         }
         each.phLabel = phLabel
     })
+    function handleText(event:any){
+        //alert(event.target.value)
+        console.log(event.target.value);    
+
+    }
     return (
         <>  
+        <h1>User Events</h1>
+        <div>
+            <input onChange={handleText}/>
+        </div>
         <h1>User List Component</h1>
         <div>
             <h1>User List Component</h1>
-            <User data={user1} />
+            <User data={user1[1]} />
         </div>
         <div className="card col">
             <h1>User List Component with list display</h1>
@@ -27,7 +36,7 @@ function UserList() {
                         return (
                         <>
                         <div className="card col">
-                            <li key={index}>{each.name}</li>
+                            <li key={index}>{index} - {each.name}</li>
                             <li>{each.age}</li>
                             <li>{each.email}</li>
                             <li>{each.location}</li>

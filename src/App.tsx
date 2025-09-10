@@ -1,13 +1,14 @@
 
 import './App.css'
-import { SampleLogin } from './components/SampleLogin.tsx'
-import NavBar from './components/NavBar.tsx'
+// import { SampleLogin } from './components/SampleLogin.tsx'
+// import NavBar from './components/NavBar.tsx'
+import AddCake from './components/AddCake.tsx'
+import Home from './components/Home.tsx'
 
 function App() {
   return (
     <>
-      <SampleLogin />
-      <NavBar /> 
+      <Home />
     </>
   )
 }

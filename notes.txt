@@ -57,3 +57,38 @@ Props
 Lists
 Conditional rendering
 
+
+renderring is to show view on screen and to again show it is rerendering
+
+all the functions are by default stateless and to make it statefull we need to write class
+
+functional components -- stateless
+class based compoment -- statefull
+
+in 2019  react devlopers said enough is enough and no longer we need to write the functuional code into classses
+no longer we write the functional code into classes
+
+hooks are functions and they are introduced to make function components statefull
+
+we can create our functions as hooks by starting with use...
+
+
+----input handling + state updates task----
+create a component add cake
+that will take name and price and image url from user
+when u click an add cake button that object will be added into array and keep coming screen
+
+last acticity
+
+craete home,navbar and login coomponent
+
+in your root componenent u will render home component
+
+home componnet will contain 2 components nav bar and login
+
+creation a function in home componnet and pass it as props in login componnet
+
+in login component match some hard coded cred and if matched call that function received in props
+
+in home component in that function print an alert "Login Success"
+
